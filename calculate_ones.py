@@ -6,7 +6,7 @@ def calculate_ones(qty):
     max_number = 0
     for i in range(qty):
         num = int(input())
-        if int(num) == 1:
+        if num == 1:
             counter += 1
             if max_number < counter:
                 max_number = counter
